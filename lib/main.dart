@@ -1,3 +1,4 @@
+import 'package:advance_widgets/views/screens/cart/cart_home_screen.dart';
 import 'package:advance_widgets/views/screens/dismissible_widget/dismissible_screen.dart';
 import 'package:advance_widgets/views/screens/expansion_tile_widget/expansion_tile_list_screen.dart';
 import 'package:advance_widgets/views/screens/expansion_tile_widget/expansion_tile_screen.dart';
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: FavoriteHomeScreen()
+      home: CartHomeScreen()
+      //FavoriteHomeScreen()
       //ExpansionTileListScreen()
       //ExpansionTileScreen()
       //DismissibleScreen()
